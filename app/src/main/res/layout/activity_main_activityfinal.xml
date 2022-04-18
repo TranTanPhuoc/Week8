@@ -60,7 +60,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnFinsh"
         android:layout_width="177dp"
         android:layout_height="55dp"
         android:backgroundTint="#F36696"

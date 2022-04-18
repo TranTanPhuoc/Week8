@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "377583313256",
+    "project_id": "thietbididongweek8",
+    "storage_bucket": "thietbididongweek8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377583313256:android:21c5ca314d831ebeb9b6dd",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377583313256-ueje8fd6vmrbfm2fjsntvvqcc7bjaaj8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "e3a84cd6300c712b7979d190ffb20b75f8628969"
+          }
+        },
+        {
+          "client_id": "377583313256-hb20fi0lqhd0dg5c14mcm7mja69qdpsu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6ouAGXIKhWRu56umzdWs_fu8OM6DAM-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377583313256-hb20fi0lqhd0dg5c14mcm7mja69qdpsu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
