@@ -21,17 +21,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imgHp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintEnd_toStartOf="@+id/imgNm"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imgNm"
         app:srcCompat="@drawable/matcuoi_xanh" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imgNm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -41,13 +41,13 @@
         app:srcCompat="@drawable/matcuoi_vang" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imgSad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintStart_toEndOf="@+id/imgNm"
+        app:layout_constraintTop_toTopOf="@+id/imgNm"
         app:srcCompat="@drawable/matcuoi_do" />
 
     <View
@@ -67,7 +67,21 @@
         android:text="FINISH"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
-        app:layout_constraintEnd_toStartOf="@+id/imageView7"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+        app:layout_constraintEnd_toStartOf="@+id/imgSad"
+        app:layout_constraintStart_toEndOf="@+id/imgHp"
+        app:layout_constraintTop_toBottomOf="@+id/imgHp" />
+
+    <TextView
+        android:id="@+id/txtCount"
+        android:layout_width="72dp"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#FA0000"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnFinsh"
+        app:layout_constraintEnd_toStartOf="@+id/imgSad"
+        app:layout_constraintStart_toEndOf="@+id/imgHp"
+        app:layout_constraintTop_toBottomOf="@+id/imgNm" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -39,7 +39,7 @@ public class MainActivitysc03 extends AppCompatActivity {
                 String strPass2 = txtPass2.getText().toString().trim();
                 if(strPass.equalsIgnoreCase(strPass2)){
                     mAuth = FirebaseAuth.getInstance();
-                    mAuth.createUserWithEmailAndPassword(strEmail,strPass).addOnCompleteListener( new OnCompleteListener<AuthResult>() {
+                    mAuth.createUserWithEmailAndPassword(strEmail,strPass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if(task.isSuccessful()){
@@ -47,8 +47,7 @@ public class MainActivitysc03 extends AppCompatActivity {
                                 startActivity(intent);
                                 finishAffinity();
                             }else{
-                                Toast.makeText(MainActivitysc03.this,"Fail",Toast.LENGTH_SHORT).show();
-                                Log.w("Fail","Fail");
+                                Toast.makeText(MainActivitysc03.this, "Error"+ task.getException().getMessage(), Toast.LENGTH_LONG).show();
                             }
                         }
                     });
